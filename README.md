@@ -26,3 +26,7 @@ Python (3.9.4) 64-bit
 Git / GitHub
 
 Python: Socket, Pickle modules and streamlit.
+
+### To run the file command is :
+
+streamlit run filename.py

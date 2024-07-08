@@ -1,4 +1,4 @@
-     Overview
+# Tic tac toe - Overview
 
 This is a simple game of tic-tac-toe developed in Python. It allows two players to play with one another on different command lines through networking.
 The host starts the game by first running host.py, waiting for the client to connect by then running client.py. Once their connected, the game itself starts.
@@ -11,13 +11,13 @@ I programmed this primarily to learn the basics of networking and how to send an
 
 
 
-Network Communication :
+## Network Communication :
 
 I used a host/client network architecture for this project using TCP (Transmission Control Protocol), and I used port 12783. 
 The messages were sent back and forth between the host and the client thanks to the pickle module, which converts any object (in this case, a string list storing the nine squares of a tic-tac-toe grid) into a 
 byte stream to be sent and back into an object to be read.
 
-Development Environment :
+## Development Environment :
 
 Visual Studio Code
 
